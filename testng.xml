@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/DivyashSinghHura/Desktop/Demo/SourceDemo/src">
+        <classes>
+            <class name="Test.LoginModule">
+                <methods>
+                    <include name="Test1"/>
+                    <include name="Test2"/>
+                </methods>
+            </class>
+            <class name="Test.VerifyHomePage">
+                <methods>
+                    <include name="Test1"/>
+                    <include name="checkPic1"/>
+                    <include name="checkPic2"/>
+                    <include name="checkPic3"/>
+                    <include name="checkPic4"/>
+                    <include name="checkPic5"/>
+                    <include name="checkPic6"/>
+                    <include name="checkLink1"/>
+                    <include name="checkLink2"/>
+                    <include name="checkLink3"/>
+                    <include name="checkLink4"/>
+                    <include name="checkLink5"/>
+                    <include name="checkLink6"/>
+                    <include name="checkCart1"/>
+                    <include name="checkCart2"/>
+                    <include name="checkCart3"/>
+                    <include name="checkCart4"/>
+                    <include name="checkCart5"/>
+                    <include name="checkCart6"/>
+                    <include name="checkLinkedIn"/>
+                    <include name="checkTwitter"/>
+                    <include name="checkFacebook"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
